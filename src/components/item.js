@@ -5,7 +5,7 @@ export class Item extends Component {
     return ( 
       <div className='item' id={this.props.item.id}>
           
-            <img src={"./img/" + this.props.item.img} onClick={() => this.props.onShowRullItem(this.props.item)}/> 
+            <img src={"./img/" + this.props.item.img} onClick={() => this.props.onShowRullItem(this.props.item)} alt=''/> 
             <div>
               <h2>{this.props.item.title}</h2>
               <p>{this.props.item.desc}</p>

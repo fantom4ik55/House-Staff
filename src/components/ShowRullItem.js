@@ -7,7 +7,7 @@ export class ShowRullItem extends Component {
       <div className='full-item'>
           <div>
               <Close onClick={() => this.props.onShowRullItem()}/>
-              <img src={"./img/" + this.props.item.img} onClick={() => this.props.onShowRullItem(this.props.item)}/> 
+              <img src={"./img/" + this.props.item.img} onClick={() => this.props.onShowRullItem(this.props.item)} alt='фото'/> 
               <div>
                 <h2>{this.props.item.title}</h2>
                 <p>{this.props.item.desc}</p>
