@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/House-Staff/static/css/main.6c5ce371.css",
+    "main.css": "/House-Staff/static/css/main.a2da28df.css",
     "main.js": "/House-Staff/static/js/main.8ce936ca.js",
     "static/media/bg.jpeg": "/House-Staff/static/media/bg.e93076dc069df05ddbb2.jpeg",
     "index.html": "/House-Staff/index.html",
-    "main.6c5ce371.css.map": "/House-Staff/static/css/main.6c5ce371.css.map",
+    "main.a2da28df.css.map": "/House-Staff/static/css/main.a2da28df.css.map",
     "main.8ce936ca.js.map": "/House-Staff/static/js/main.8ce936ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c5ce371.css",
+    "static/css/main.a2da28df.css",
     "static/js/main.8ce936ca.js"
   ]
 }
