@@ -67,6 +67,7 @@ header {
   width: 100%;
   z-index: 10;
   background-color: var(--white);
+  box-shadow: 0 14px 20px -2px #223c504d;
 }
 
 header .item {
@@ -135,7 +136,7 @@ header ul.nav li:hover {
 
 .presentation {
   position: relative;
-  margin: 60px 0 40px 0;
+  margin: 70px 0 40px 0;
   background: url("./img/bg.jpeg") no-repeat center center;
   background-size: cover;
   width: 100%;
@@ -601,7 +602,7 @@ footer {
   .presentation {
     height: 360px;
     border-radius: var(--radius-md);
-    margin: 60px 0 20px 0;
+    margin: 75px 0 20px 0;
   }
   .presentation::after {
     font-size: 30px;
