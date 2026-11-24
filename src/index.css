@@ -340,23 +340,23 @@ main {
 
 main .item {
   position: relative;
-  width: calc(20% - 16px);
-  width: -webkit-calc(20% - 16px); /* старый Safari/Android */
-  background-color: var(--white);
+    width: -webkit-calc(20% - 16px); 
+  width: calc(20% - 16px); 
+  background-color: var(--color-gray--500);
   border: 1px solid var(--color-gray);
   border-radius: var(--radius-md);
   overflow: hidden;
   position: relative;
   padding-bottom: 30px;
   cursor: pointer;
-  transition:
-    transform var(--transition),
-    box-shadow var(--transition),
-    border-color var(--transition);
   -webkit-transition:
     -webkit-transform var(--transition),
     box-shadow var(--transition),
     border-color var(--transition);
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition),
+    border-color var(--transition); 
 }
 
 main .item:hover {
@@ -393,7 +393,7 @@ main h2 {
 }
 main p {
   font-size: 13px;
-  color: var(--color-muted);
+  color: var(--white);
   line-height: 1.45;
 }
 main b {
