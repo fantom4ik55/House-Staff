@@ -3,9 +3,13 @@ import { FaTrash } from 'react-icons/fa'
 
 export class Order extends Component {
   render() {
+    const base = process.env.PUBLIC_URL || ''  
+    const img = this.props.item.img
+      ? `${base}/img/${this.props.item.img}`
+      : `${base}/img/no_foto.jpg`
     return (
       <div className='item'>
-            <img src={"./img/" + this.props.item.img} alt="фото"/> 
+            <img src={img} alt="фото"/> 
             <div className='item-title-price'>
                 <h2>{this.props.item.title}</h2> 
                 <b>{this.props.item.price} $</b>
