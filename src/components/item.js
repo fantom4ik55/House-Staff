@@ -3,7 +3,10 @@ import React, { Component } from 'react'
 export class Item extends Component {
   
   render() {
-    const img = ("./img/" + this.props.item.img) ? ("./img/" + this.props.item.img) : '/img/no_foto.jpg'
+    const base = process.env.PUBLIC_URL || ''  
+    const img = this.props.item.img
+      ? `${base}/img/${this.props.item.img}`
+      : `${base}/img/no_foto.jpg`
     return ( 
       <div className='item' id={this.props.item.id}>
           
